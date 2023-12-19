@@ -183,7 +183,7 @@ LDFLAGS += -lspf2
 
 Note there are slight variations between different versions of Exim.
 
-Now pack ths config up again:
+Now pack the config up again:
 
 ```
 fakeroot debian/rules pack-configs
