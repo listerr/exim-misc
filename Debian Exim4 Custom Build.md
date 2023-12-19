@@ -97,7 +97,11 @@ I digress...
 
 If not already there, add the appropriate ``deb-src`` repositories are in ``/etc/apt/sources.list``
 
-- Bullseye:
+The important bit here is to add `deb-src` lines.
+
+**Your sources.list will vary, So do not just copy paste these!**
+
+- Bullseye example:
   
 ```
 deb http://mirror.mythic-beasts.com/debian/ bullseye main
@@ -110,7 +114,7 @@ deb http://mirror.mythic-beasts.com/debian/ bullseye-updates main
 deb-src http://mirror.mythic-beasts.com/debian/ bullseye-updates main
 ```
 
-* Bookworm:
+* Bookworm example:
 
 ```
 deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
