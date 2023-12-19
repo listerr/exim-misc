@@ -281,8 +281,9 @@ Alternative method (Sometimes the above didn't generate a working path,
 apt wouldn't install with newer versions of apt)
 
 ```
-# /etc/apt/sources.list.d/exim.list
-
+# vi /etc/apt/sources.list.d/exim.list
+```
+```
 deb [trusted=yes] file:/opt/debian-exim/bookworm/debs/ /
 
 ```
